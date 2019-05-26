@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0832e73e-2584-4368-9165-f240295ff080" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Lyx/sub5_2019_67577.lyx" beforeDir="false" afterPath="$PROJECT_DIR$/Lyx/sub5_2019_67577.lyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/garcon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/garcon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/runme.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/runme.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Ex5$runme.coverage" NAME="runme Coverage Results" MODIFIED="1558817628234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
+    <SUITE FILE_PATH="coverage/Ex5$runme.coverage" NAME="runme Coverage Results" MODIFIED="1558897067014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="283473384">
@@ -23,36 +24,96 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="png" value="39" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Image" value="39" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="539" />
+          <entry key="Python Console" value="262" />
+          <entry key="py" value="5193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="539" />
+          <entry key="Python" value="5455" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/runme.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="567">
+              <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
               <folding>
-                <marker date="1558817754791" expanded="true" signature="43:70" ph="..." />
+                <element signature="e#0#30#0" expanded="true" />
+                <marker date="1558897066943" expanded="true" signature="145:556" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="602:1396" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="1443:1894" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="2107:2544" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="2144:2544" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="2725:3659" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="3697:4264" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="4291:4773" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="5171:5173" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="5202:5298" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="5244:5298" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="5296:5298" ph="..." />
+                <marker date="1558897066943" expanded="true" signature="5338:5339" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Q8b_b.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Images/Q8b_c.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Q7c.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Q7d_b.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Q7d_c.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Q8a_b.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Q8a_c.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Ex4/Code/ex4_runme.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -60,11 +121,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/garcon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="205">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <marker date="1558817626715" expanded="true" signature="26:31" ph="..." />
-                <marker date="1558817626715" expanded="true" signature="167:233" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1558888123279" expanded="true" signature="115:116" ph="..." />
+                <marker date="1558888123279" expanded="true" signature="280:355" ph="..." />
+                <marker date="1558888123279" expanded="true" signature="511:1110" ph="..." />
+                <marker date="1558888123279" expanded="true" signature="806:859" ph="..." />
               </folding>
             </state>
           </provider>
@@ -78,6 +142,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>scatter</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,8 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="832" />
-    <option name="width" value="1097" />
+    <option name="x" value="830" />
+    <option name="width" value="1098" />
     <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -120,6 +189,11 @@
               <item name="Ex5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ex5" type="462c0819:PsiDirectoryNode" />
               <item name="Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ex5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ex5" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,21 +263,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="666" y="0" width="877" height="871" extended-state="0" />
+    <frame x="664" y="0" width="878" height="871" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22738387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Python Console" weight="0.51355016" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35501355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,26 +296,120 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Images/Q7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7_warmup.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/scipy/stats/_distn_infrastructure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="469" selection-start-line="469" selection-end-line="469" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/scipy/stats/_continuous_distns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/garcon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="205">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <marker date="1558817626715" expanded="true" signature="26:31" ph="..." />
-            <marker date="1558817626715" expanded="true" signature="167:233" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1558888123279" expanded="true" signature="115:116" ph="..." />
+            <marker date="1558888123279" expanded="true" signature="280:355" ph="..." />
+            <marker date="1558888123279" expanded="true" signature="511:1110" ph="..." />
+            <marker date="1558888123279" expanded="true" signature="806:859" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Ex4/Code/ex4_runme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8b_corr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8b_ncorr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8c_corr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8c_ncorr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7b_rot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7c_rot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7d_b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7d_c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8a_c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8a_b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7warmup.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/runme.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="567">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
           <folding>
-            <marker date="1558817754791" expanded="true" signature="43:70" ph="..." />
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1558897066943" expanded="true" signature="145:556" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="602:1396" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="1443:1894" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="2107:2544" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="2144:2544" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="2725:3659" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="3697:4264" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="4291:4773" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="5171:5173" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="5202:5298" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="5244:5298" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="5296:5298" ph="..." />
+            <marker date="1558897066943" expanded="true" signature="5338:5339" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8b_b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8b_c.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
