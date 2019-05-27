@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0832e73e-2584-4368-9165-f240295ff080" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Code/garcon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/garcon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/runme.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/runme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q7b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q7c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q7d_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q7d_c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q7warmup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q8a_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q8a_c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q8b_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Q8b_c.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Ex5$runme.coverage" NAME="runme Coverage Results" MODIFIED="1558897067014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
+    <SUITE FILE_PATH="coverage/Ex5$runme.coverage" NAME="runme Coverage Results" MODIFIED="1558988108667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="283473384">
@@ -24,25 +33,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="png" value="39" />
+          <entry key="png" value="51" />
           <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="39" />
+          <entry key="Image" value="51" />
           <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="262" />
-          <entry key="py" value="5193" />
+          <entry key="py" value="5456" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5455" />
+          <entry key="Python" value="5718" />
         </counts>
       </usages-collector>
     </session>
@@ -52,23 +61,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/runme.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+            <state relative-caret-position="247">
+              <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1558897066943" expanded="true" signature="145:556" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="602:1396" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="1443:1894" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="2107:2544" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="2144:2544" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="2725:3659" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="3697:4264" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="4291:4773" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="5171:5173" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="5202:5298" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="5244:5298" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="5296:5298" ph="..." />
-                <marker date="1558897066943" expanded="true" signature="5338:5339" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="145:558" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="605:1421" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="1468:1930" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="2245:2694" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="2282:2694" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="3233:3235" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="3264:3642" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="3307:3642" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="3639:3642" ph="..." />
+                <marker date="1558988108497" expanded="true" signature="3682:3683" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,8 +85,8 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Images/Q8b_c.png">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Q7b.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -90,12 +96,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Images/Q7d_b.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Images/Q7d_c.png">
+        <entry file="file://$PROJECT_DIR$/Images/Q7warmup.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -109,29 +110,19 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Ex4/Code/ex4_runme.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="32" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Images/Q9a_b.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code/garcon.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1558888123279" expanded="true" signature="115:116" ph="..." />
-                <marker date="1558888123279" expanded="true" signature="280:355" ph="..." />
-                <marker date="1558888123279" expanded="true" signature="511:1110" ph="..." />
-                <marker date="1558888123279" expanded="true" signature="806:859" ph="..." />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Images/Q7d_b.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Images/Q7d_c.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -146,6 +137,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>scatter</find>
+      <find>init_plt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,9 +158,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="830" />
-    <option name="width" value="1098" />
-    <option name="height" value="1089" />
+    <option name="x" value="618" />
+    <option name="width" value="1309" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -193,6 +185,11 @@
             <path>
               <item name="Ex5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ex5" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ex5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ex5" type="462c0819:PsiDirectoryNode" />
               <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -204,7 +201,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex4/Code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -263,11 +260,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="664" y="0" width="878" height="871" extended-state="0" />
+    <frame x="495" y="0" width="1047" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22738387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32928064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -277,7 +274,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35501355" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35549524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,19 +358,10 @@
     <entry file="file://$PROJECT_DIR$/Images/Q7c_rot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Images/Q7c.png">
+    <entry file="file://$PROJECT_DIR$/Images/Q8b_c.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Images/Q7d_b.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/Q7d_c.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/Q8a_c.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/Q8a_b.png">
+    <entry file="file://$PROJECT_DIR$/Images/Q9a_c.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Images/Q7b.png">
@@ -382,25 +370,37 @@
     <entry file="file://$PROJECT_DIR$/Images/Q7warmup.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7d_c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7d_b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q7c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8a_c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Q8a_b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/runme.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+        <state relative-caret-position="247">
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1558897066943" expanded="true" signature="145:556" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="602:1396" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="1443:1894" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="2107:2544" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="2144:2544" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="2725:3659" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="3697:4264" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="4291:4773" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="5171:5173" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="5202:5298" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="5244:5298" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="5296:5298" ph="..." />
-            <marker date="1558897066943" expanded="true" signature="5338:5339" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="145:558" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="605:1421" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="1468:1930" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="2245:2694" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="2282:2694" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="3233:3235" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="3264:3642" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="3307:3642" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="3639:3642" ph="..." />
+            <marker date="1558988108497" expanded="true" signature="3682:3683" ph="..." />
           </folding>
         </state>
       </provider>
@@ -408,7 +408,7 @@
     <entry file="file://$PROJECT_DIR$/Images/Q8b_b.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Images/Q8b_c.png">
+    <entry file="file://$PROJECT_DIR$/Images/Q9a_b.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
