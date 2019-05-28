@@ -65,6 +65,8 @@ def Q7b(samp1, samp2, qnum='7', rotated=False):
 	gc.init_plt(f'{fn_pref}: Normal Distribution{rot_title}')
 	plt.scatter(samp1[:, 0], samp1[:, 1], alpha=0.5, label='Population 1')
 	plt.scatter(samp2[:, 0], samp2[:, 1], alpha=0.5, label='Population 2')
+	plt.xlabel('Feature 1')
+	plt.ylabel('Feature 2')
 	plt.legend()
 	gc.save_plt(f'{fn_pref}')
 
@@ -96,6 +98,8 @@ def Q7warmup():
 	gc.init_plt('Q7warmup: PDF and Histogram, Normal Distribution')
 	plt.plot(x, dist.pdf(x), label='PDF')
 	plt.hist(samp, density=True, edgecolor='k', alpha=0.7, label='Histogram')
+	plt.xlabel('X Values')
+	plt.ylabel('Density')
 	plt.legend()
 	gc.save_plt()
 

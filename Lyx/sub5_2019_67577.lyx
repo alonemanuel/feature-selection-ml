@@ -196,6 +196,34 @@ Model Selection
 Q1
 \end_layout
 
+\begin_layout Itemize
+Let 
+\begin_inset Formula $h^{*}\in ERM_{\H_{k}}\left(S_{all}\right)$
+\end_inset
+
+ be some optimal hypothesis w.r.t all samples, 
+\begin_inset Formula $S_{all}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Recall the definition of 
+\begin_inset Formula $L_{D}\left(h\right)$
+\end_inset
+
+, the generalization error:
+\begin_inset Formula 
+\[
+L_{\D}\left(h\right)=\p_{\left(x,y\right)\sim\D}\left[L\left(h\left(x\right)\ne y\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
 status open
@@ -354,6 +382,192 @@ co
 \end_layout
 
 \begin_layout Subsection*
+Q7
+\end_layout
+
+\begin_layout Standard
+Warm-up:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q7warmup.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Q7.b
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q7b.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Q7.c
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q7c.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Q7.d
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q7d_b.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q7d_c.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can now see that Feature 1 is highly correlated among the two populations.
+\end_layout
+
+\begin_layout Standard
+What was once a separated feature with not much overlap, is now almost identical.
+\end_layout
+
+\begin_layout Standard
+On the other hand, Feature 2 has remained pretty much unchanged after the
+ rotation.
+\end_layout
+
+\begin_layout Subsection*
+Q7.e
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+co
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Q8.a
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q8a_b.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q8a_c.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Q8.b
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q8b_b.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q8b_c.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Q8.c
+\end_layout
+
+\begin_layout Itemize
+The negatively-correlated samples (b) correspond to the separable scatter
+ plot.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+On the other hand, the positively-correlated samples (a) correspond to the
+ inseparable scatter plot.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+co
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Q9.a
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q9a_b.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q9a_c.png
+
+\end_inset
+
 
 \end_layout
 
