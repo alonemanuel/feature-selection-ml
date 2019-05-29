@@ -41,8 +41,11 @@ class Garcon:
 
 	def init_plt(self, title=''):
 		self.fig = plt.figure()
-		if title:
-			plt.title(title)
+		if not title:
+			curr_frame = inspect.currentframe()
+			call_frame = inspect.getouterframes(curr_frame, 2)
+			title = call_frame[1][3]
+		plt.title(title)
 
 	def init_subplt(self, title):
 		plt.subplot()

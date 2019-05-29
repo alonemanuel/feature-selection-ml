@@ -68,7 +68,7 @@ def Q7b(samp1, samp2, qnum='7', rotated=False):
 	plt.xlabel('Feature 1')
 	plt.ylabel('Feature 2')
 	plt.legend()
-	gc.save_plt(f'{fn_pref}')
+	gc.save_plt(fn_pref)
 
 def Q7a(cov, mu1=None, mu2=None):
 	'''

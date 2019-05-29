@@ -6,9 +6,9 @@ from Code.garcon import Garcon
 
 def main():
 	gc = Garcon()
-	# Q7()
-	# Q8()
-	# Q9()
+	Q7()
+	Q8()
+	Q9()
 	Q10()
 
 if __name__ == '__main__':
