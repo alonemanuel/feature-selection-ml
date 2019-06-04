@@ -186,6 +186,18 @@ Alon Emanuel - 205894058
 \end_inset
 
 
+\begin_inset FormulaMacro
+\newcommand{\E}{\mathbb{E}}
+{\mathbb{E}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\e}{\varepsilon}
+{\varepsilon}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -239,6 +251,17 @@ co
 
 \begin_layout Subsection*
 Q2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{\frac{2\ln\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{m}}\le\sqrt{\frac{2}{\alpha m}\ln\left(\frac{4k}{\delta}\right)}+\sqrt{\frac{2}{\left(1-\alpha\right)m}\ln\left(\frac{4\left|\H_{j}\right|}{\delta}\right)}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -315,6 +338,63 @@ Feature Transformations
 
 \begin_layout Subsection*
 Q6.a
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+L_{D}\left(w\right) & =L_{\D}\left[\left(wx-y\right)^{2}\right]\\
+ & =\E\left[\left(wx-y\right)^{2}\right]\\
+ & =\E\left[w^{2}x^{2}-2wxy+y^{2}\right]\\
+ & =w^{2}\E\left[x^{2}\right]-2w\E\left[xy\right]+\E\left[y^{2}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We have that:
+\begin_inset Formula 
+\begin{align*}
+w^{2}\E\left[x^{2}\right] & =w^{2}\E\left[x^{2}\mid x=y\right]\p\left[x=y\right]+w^{2}\E\left[x^{2}\mid x=ay\right]\p\left[x=ay\right]\\
+ & =w^{2}\left\{ \left(1-\frac{1}{a}\right)\E\left[x^{2}\mid x=y\right]+\frac{1}{a}\E\left[x^{2}\mid x=ay\right]\right\} \\
+ & =w^{2}\left\{ \left(1-\frac{1}{a}\right)\cdot1+\frac{1}{a}\cdot a^{2}\right\} \\
+ & =w^{2}\left[1-\frac{1}{a}+a\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We'll 
+\begin_inset Formula 
+\begin{align*}
+\E\left[x^{2}\mid x=y\right] & =\E\left[x^{2}\mid x=y,y=1\right]\p\left[y=1\right]+\E\left[x^{2}\mid x=y,y=-1\right]\p\left[y=-1\right]\\
+ & =1\cdot0.5+1\cdot0.5\\
+ & =1
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We
+\begin_inset Formula 
+\begin{align*}
+\E\left[x^{2}\mid x=ay\right] & =\E\left[x^{2}\mid x=ay,y=1\right]\p\left[y=1\right]+\E\left[x^{2}\mid x=ay,y=-1\right]\p\left[y=-1\right]\\
+ & =a^{2}\cdot0.5+a^{2}\cdot0.5\\
+ & =a^{2}
+\end{align*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -536,40 +616,5 @@ On the other hand, the positively-correlated samples (a) correspond to the
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-co
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-Q9.a
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q9a_b.png
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename E:/alon_emanuel_drive/School/Year2/Semester2/67577_IML/Exercises/Ex5/Images/Q9a_c.png
-
-\end_inset
-
-
-\end_layout
-
 \end_body
 \end_document

@@ -186,6 +186,18 @@ Alon Emanuel - 205894058
 \end_inset
 
 
+\begin_inset FormulaMacro
+\newcommand{\E}{\mathbb{E}}
+{\mathbb{E}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\e}{\varepsilon}
+{\varepsilon}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -197,26 +209,118 @@ Q1
 \end_layout
 
 \begin_layout Itemize
-Let 
-\begin_inset Formula $h^{*}\in ERM_{\H_{k}}\left(S_{all}\right)$
+In recitation 10 we've shown that for any hypothesis 
+\begin_inset Formula $h$
 \end_inset
 
- be some optimal hypothesis w.r.t all samples, 
-\begin_inset Formula $S_{all}$
+ and any 
+\begin_inset Formula $\delta\in\left(0,1\right)$
 \end_inset
 
-.
+, we have:
+\begin_inset Formula 
+\[
+\p\left[\left|L_{S_{all}}\left(h\right)-L_{\D}\left(h\right)\right|<\sqrt{\frac{\log\left(\nicefrac{2}{\delta}\right)}{2m}}\right]\ge1-\delta
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Recall the definition of 
-\begin_inset Formula $L_{D}\left(h\right)$
+If we take 
+\begin_inset Formula $\delta=\frac{\delta}{\left|\H_{k}\right|}$
 \end_inset
 
-, the generalization error:
+ and flip the direction, we get:
 \begin_inset Formula 
 \[
-L_{\D}\left(h\right)=\p_{\left(x,y\right)\sim\D}\left[L\left(h\left(x\right)\ne y\right)\right]
+\p\left[\left|L_{S_{all}}\left(h\right)-L_{\D}\left(h\right)\right|\ge\sqrt{\frac{\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{2m}}\right]\le\frac{\delta}{\left|\H_{k}\right|}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Since this holds for any 
+\begin_inset Formula $h_{i}\in\H_{k}$
+\end_inset
+
+, we can use the union bound:
+\begin_inset Formula 
+\[
+\p\left[\bigcup_{i\in\left[\left|\H_{k}\right|\right]}\left\{ \left|L_{S_{all}}\left(h_{i}\right)-L_{\D}\left(h_{i}\right)\right|\ge\sqrt{\frac{\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{2m}}\right\} \right]\le\cancel{\left|\H_{k}\right|}\frac{\delta}{\cancel{\left|\H_{k}\right|}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Thus:
+\begin_inset Formula 
+\[
+\p\left[\bigcap_{i\in\left[\left|\H_{k}\right|\right]}\left\{ \left|L_{S_{all}}\left(h_{i}\right)-L_{\D}\left(h_{i}\right)\right|\le\sqrt{\frac{\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{2m}}\right\} \right]\ge1-\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Thus, for all 
+\begin_inset Formula $i\in\left[\left|\H_{k}\right|\right]$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\p\left[\left|L_{S_{all}}\left(h_{i}\right)-L_{\D}\left(h_{i}\right)\right|\le\sqrt{\frac{\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{2m}}\right]\ge1-\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Finally, we get that with probability of at least 
+\begin_inset Formula $1-\delta$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+L_{\D}\left(h^{*}\right)\le & L_{\D}\left(h_{i}\right)\\
+\le & \sqrt{\frac{\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{2m}}+L_{S_{all}}\left(h_{i}\right)\\
+\le & \sqrt{\frac{\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{2m}}+L_{\D}\left(h_{i}\right)\\
+\le & 2\sqrt{\frac{\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{2m}}+L_{\D}\left(h_{i}\right)\\
+\le & \sqrt{\frac{2\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{m}}+L_{\D}\left(h_{i}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Since this is true for all 
+\begin_inset Formula $h_{i}\in\H_{k}$
+\end_inset
+
+, it is in particular true for 
+\begin_inset Formula $h\in\argmin L_{\D}\left(h_{i}\right)$
+\end_inset
+
+, so we get:
+\begin_inset Formula 
+\[
+\p\left[L_{\D}\left(h^{*}\right)\le\sqrt{\frac{2\log\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{m}}+\min_{h\in\H_{k}}L_{\D}\left(h\right)\right]\ge1-\delta
 \]
 
 \end_inset
@@ -225,13 +329,7 @@ L_{\D}\left(h\right)=\p_{\left(x,y\right)\sim\D}\left[L\left(h\left(x\right)\ne 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-co
-\end_layout
-
+\begin_inset Formula $\qed$
 \end_inset
 
 
@@ -239,6 +337,29 @@ co
 
 \begin_layout Subsection*
 Q2
+\end_layout
+
+\begin_layout Itemize
+Using the previous inequality, we have:
+\begin_inset Formula 
+\[
+\p\left[L_{\D}\left(h^{*}\right)\le\sqrt{\frac{2\log\left(\nicefrac{4\left|\H_{k}\right|}{\delta}\right)}{m}}+\min_{h\in\H_{k}}L_{\D}\left(h\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{\frac{2\ln\left(\nicefrac{2\left|\H_{k}\right|}{\delta}\right)}{m}}\le\sqrt{\frac{2}{\alpha m}\ln\left(\frac{4k}{\delta}\right)}+\sqrt{\frac{2}{\left(1-\alpha\right)m}\ln\left(\frac{4\left|\H_{j}\right|}{\delta}\right)}\ge1-\frac{\delta}{2}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -315,6 +436,63 @@ Feature Transformations
 
 \begin_layout Subsection*
 Q6.a
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+L_{D}\left(w\right) & =L_{\D}\left[\left(wx-y\right)^{2}\right]\\
+ & =\E\left[\left(wx-y\right)^{2}\right]\\
+ & =\E\left[w^{2}x^{2}-2wxy+y^{2}\right]\\
+ & =w^{2}\E\left[x^{2}\right]-2w\E\left[xy\right]+\E\left[y^{2}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We have that:
+\begin_inset Formula 
+\begin{align*}
+w^{2}\E\left[x^{2}\right] & =w^{2}\E\left[x^{2}\mid x=y\right]\p\left[x=y\right]+w^{2}\E\left[x^{2}\mid x=ay\right]\p\left[x=ay\right]\\
+ & =w^{2}\left\{ \left(1-\frac{1}{a}\right)\E\left[x^{2}\mid x=y\right]+\frac{1}{a}\E\left[x^{2}\mid x=ay\right]\right\} \\
+ & =w^{2}\left\{ \left(1-\frac{1}{a}\right)\cdot1+\frac{1}{a}\cdot a^{2}\right\} \\
+ & =w^{2}\left[1-\frac{1}{a}+a\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We'll 
+\begin_inset Formula 
+\begin{align*}
+\E\left[x^{2}\mid x=y\right] & =\E\left[x^{2}\mid x=y,y=1\right]\p\left[y=1\right]+\E\left[x^{2}\mid x=y,y=-1\right]\p\left[y=-1\right]\\
+ & =1\cdot0.5+1\cdot0.5\\
+ & =1
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+We
+\begin_inset Formula 
+\begin{align*}
+\E\left[x^{2}\mid x=ay\right] & =\E\left[x^{2}\mid x=ay,y=1\right]\p\left[y=1\right]+\E\left[x^{2}\mid x=ay,y=-1\right]\p\left[y=-1\right]\\
+ & =a^{2}\cdot0.5+a^{2}\cdot0.5\\
+ & =a^{2}
+\end{align*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -524,15 +702,17 @@ Q8.b
 Q8.c
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 The negatively-correlated samples (b) correspond to the separable scatter
  plot.
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 On the other hand, the positively-correlated samples (a) correspond to the
  inseparable scatter plot.
 \end_layout
 
+\end_deeper
 \end_body
 \end_document
